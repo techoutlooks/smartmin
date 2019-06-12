@@ -429,7 +429,7 @@ class Login(LoginView):
     template_name = 'smartmin/users/login.html'
 
     def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
+        context = super(LoginView, self).get_context_data(**kwargs)
 
         context['allow_email_recovery'] = getattr(settings, 'USER_ALLOW_EMAIL_RECOVERY', True)
 
