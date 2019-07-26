@@ -19,3 +19,6 @@ csv_imports/
 !smartmin/csv_imports/
 
 .vscode/
+
+smartmin/migrations/
+smartmin/static/js/bootstrap.min.js.bk
